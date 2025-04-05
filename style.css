@@ -51,6 +51,7 @@ body {
   gap: var(--spacing-large);
   border: var(--color-gray-dark) solid 1px;
   box-shadow: var(--spacing-small) var(--spacing-small) 0 0 #000000;
+  transition: box-shadow 0.3s cubic-bezier(0.47, 0, 0.74, 0.71);
 }
 
 .card-img {
@@ -90,6 +91,10 @@ body {
   gap: var(--spacing-medium);
 }
 
+.card-title {
+  transition: color 0.3s cubic-bezier(0.47, 0, 0.74, 0.71);
+}
+
 .card-summary {
   color: var(--color-gray-light);
 }
@@ -103,6 +108,19 @@ body {
 .card-author > img {
   width: 3.2rem;
   height: 3.2rem;
+}
+
+.card:hover,
+.card:focus {
+  box-shadow: var(--spacing-medium) var(--spacing-medium) 0 0 #000000;
+  cursor: pointer;
+}
+
+.card:hover .card-title {
+  color: var(--color-yellow);
+}
+.card:focus .card-title {
+  color: var(--color-yellow);
 }
 
 .text-large-bold {
