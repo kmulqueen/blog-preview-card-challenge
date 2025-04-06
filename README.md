@@ -96,7 +96,7 @@ In future projects, I'd like to focus more on:
 
 ## Author
 
-- Website - [Kyle Mulqueen](https://github.com/kmulqueen)
+- Website - [Kyle Mulqueen](https://kmulqueen.github.io/portfolio-2025/)
 - Frontend Mentor - [@kmulqueen](https://www.frontendmentor.io/profile/kmulqueen)
 
 ## Acknowledgments
